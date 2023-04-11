@@ -1,9 +1,10 @@
 import React from 'react';
+import "./index.scss";
 
 const Header = () => {
     let admin = true
     return (
-        <header style={{backgroundColor:}}>
+        <header>
             <div className="container">
                 <nav className="nav">
                     <a href="#" className="nav__brand">REACT.JS</a>
