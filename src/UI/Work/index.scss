@@ -1,0 +1,18 @@
+.work {
+    padding-top: 15px;
+    padding-bottom: 83px;
+
+    &__title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 60px;
+        color: #21243D;
+    }
+
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+        row-gap: 31px;
+    }
+}

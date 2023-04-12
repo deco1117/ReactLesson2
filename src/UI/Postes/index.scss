@@ -1,0 +1,38 @@
+.postes {
+    margin-top: 71px;
+    padding-top: 7px;
+    padding-bottom: 32px;
+    background: #EDF7FA;
+}
+
+.postes__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &--title {
+        padding: 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 60px;
+        display: flex;
+        align-items: flex-end;
+        color: #21243D;
+    }
+
+    &--link {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: right;
+        color: #00A8CC;
+        text-decoration: none;
+    }
+}
+
+.postes__wrapper{
+    display: flex;
+    justify-content: space-between;
+}

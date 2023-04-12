@@ -1,9 +1,21 @@
 import React from 'react';
+import './index.scss';
 
-const Card = () => {
+const Card = (props) => {
+
+    const {item:{title, date, text}} = props;
+
     return (
         <div className='card'>
-            <img src="https" alt="" />
+            <h2 className="card__title">
+                {title}
+            </h2>
+            <p className="card__info">
+                {date}
+            </p>
+            <p className="card__text">
+               {text}
+            </p>
         </div>
     );
 };

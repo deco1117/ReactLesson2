@@ -1,27 +1,33 @@
-header{
-    width: 100%;
-    background-color: deepskyblue;
+header {
+    margin: 0 auto;
+    max-width: 1032px;
 
-    .nav{
+
+    .nav {
         display: flex;
-        justify-content: space-between;
+        justify-content: end;
         align-items: center;
         height: 70px;
-        
 
-        &__list{
+
+        &__list {
             display: flex;
-            column-gap: 40px;
+            column-gap: 33px;
             list-style-type: none;
 
-            &--item{
-                text-transform: uppercase;
+            &--item {
 
-                &-link{
+                &-link {
                     text-decoration: none;
                     color: black;
+                    font-family: 'Heebo';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 29px;
+                    text-align: right;
 
-                    &:hover{
+                    &:hover {
                         color: #333;
                         transform: all 0.3s ease;
                     }
