@@ -5,9 +5,10 @@ import Work2 from '../../assets/images/work2.png';
 import Work3 from '../../assets/images/work3.png';
 import WorkCard from '../WorkCard/WorkCard';
 
+
 const index = () => {
 
-    let workBd = [
+    const workBd = [
         {
             "id": 1,  
             "imges": Work1 ,

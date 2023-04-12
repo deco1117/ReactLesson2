@@ -1,6 +1,6 @@
 import React from 'react';
 import List from './List';
-import "./footer.scss";
+import "./index.scss";
 
 const index = () => {
     return (
